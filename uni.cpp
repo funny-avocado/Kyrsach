@@ -23,9 +23,9 @@ SUITE(Server)//Макрос. FIXTURE при одинаковых аргумие�
 {
     TEST_FIXTURE(Cons_fix, NormalTest) {
         //1 Удачный сценарий
-        p->vector_file = "/home/stud/C++Projects/123144/build-Debug/bin/vector.txt ";
-        p->resultat_file = "/home/stud/C++Projects/123144/build-Debug/bin/resultat.bin";
-        p->autf_file = "/home/stud/C++Projects/123144/build-Debug/bin/config/vclient.conf";
+        p->vector_file = "/home/stud/C++Projects/kyrva/vector.txt";
+        p->resultat_file = "/home/stud/C++Projects/kyrva/resultat.bin";
+        p->autf_file = "/home/stud/C++Projects/kyrva/vclient.conf";
         p->Server("127.0.0.1", "33333");
         CHECK(true);
     }

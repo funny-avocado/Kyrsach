@@ -1,2 +1,0 @@
-# Kyrsach
-Funny Avocado)

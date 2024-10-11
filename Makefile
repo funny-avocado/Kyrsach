@@ -9,5 +9,7 @@ build:
 	$(CC) $(CCFlags) $(OPT) $(sources) -o $(target) $(LDLIBS)
 dbg:
 	$(CC) -g $(sources) -o $(target)DBG
+test:
+	g++ uni.cpp Client.cpp md5.cpp -o UNITTEST -lcryptopp -lUnitTest++ 
 RM:
 	rm -rf $(target) $(target)dbg

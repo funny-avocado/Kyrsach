@@ -1,8 +1,8 @@
 /**
 * @file Client.h
-* @author Рыжманова Е.Д..
+* @author  Рыжманова Е.Д.
 * @version 1.0
-* @date 25.06.2024
+* @date 20.07.2024
 * @copyright ИБСТ ПГУ
 * @brief Заголовочный файл для модуля Client
 */

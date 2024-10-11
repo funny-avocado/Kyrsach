@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="LenaKurs" Database="" Version="10000">
+  <Project Name="main" Path="main.project" Active="Yes"/>
+  <Project Name="Unit" Path="Unit.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Client.cpp" ConfigName="Debug"/>
+      <Project Name="Client.h" ConfigName="Debug"/>
+      <Project Name="md5" ConfigName="Debug"/>
+      <Project Name="mdh" ConfigName="Debug"/>
+      <Project Name="main" ConfigName="Debug"/>
+      <Project Name="unit" ConfigName="Debug"/>
+      <Project Name="cli" ConfigName="Debug"/>
+      <Project Name="Unit" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Client.cpp" ConfigName="Release"/>
+      <Project Name="Client.h" ConfigName="Release"/>
+      <Project Name="md5" ConfigName="Release"/>
+      <Project Name="mdh" ConfigName="Release"/>
+      <Project Name="main" ConfigName="Release"/>
+      <Project Name="unit" ConfigName="Release"/>
+      <Project Name="cli" ConfigName="Release"/>
+      <Project Name="Unit" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
